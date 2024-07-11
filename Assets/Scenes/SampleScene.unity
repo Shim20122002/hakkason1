@@ -1384,6 +1384,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Funnel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: d01bf6e4f57c13044a7cd90f9da83dcb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.281382
