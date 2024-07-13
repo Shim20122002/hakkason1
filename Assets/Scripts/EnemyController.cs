@@ -36,7 +36,7 @@ public class Enemycontroler : MonoBehaviour
             return;
         }
         destNum += 1;
-        if(destNum == 8){
+        if(destNum == 9){
             destNum = 0;
         }
         agent.destination = goals[destNum].position;
