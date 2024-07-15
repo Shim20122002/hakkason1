@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2e567c2faf24ce48a182d2cf05340d4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 6174
+  packageName: Retro Big Computer
+  packageVersion: 1.03
+  assetPath: Assets/retro_big_computer/Materials/retro_bigcomputer.mat
+  uploadId: 45502
