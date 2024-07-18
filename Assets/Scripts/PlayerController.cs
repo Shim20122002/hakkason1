@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody rb;
-    private float speed = 5.0f; //移動速度
+    private float speed = 10.0f; //移動速度
     private float rotationSpeed = 1f; // 回転速度
     // Start is called before the first frame update
     void Start()
