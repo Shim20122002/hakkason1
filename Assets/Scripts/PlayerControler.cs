@@ -7,6 +7,11 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     private float speed = 10.0f; //移動速度
     private float rotationSpeed = 1f; // 回転速度
+
+    private int keyCount = 0;
+    public int keysNeeded = 3;
+    public Door escapeDoor; // Inspectorで設定
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +38,17 @@ public class PlayerController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.D)){
             transform.Rotate(Vector3.up, rotationSpeed);
+        }
+    }
+
+     public void AddKey()
+    {
+        keyCount++;
+        Debug.Log("Keys collected: " + keyCount);
+
+        if (keyCount >= keysNeeded)
+        {
+            escapeDoor.Unlock();
         }
     }
 }

@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemycontroler : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public Transform[] goals;  // 目標地点の配列
     private GameObject player; // プレイヤーのTransform
     private NavMeshAgent agent;
     private int destNum = 0;
+    public bool sensor;
+    private Transform tr;
+    public Animator animator;
     //private int currentGoalIndex = 0;  // 現在の目標地点のインデックス
 
     // Start is called before the first frame update
@@ -17,30 +20,40 @@ public class Enemycontroler : MonoBehaviour
         player = GameObject.Find("Capsule");
         agent = GetComponent<NavMeshAgent>();
         agent.destination = goals[destNum].position;
-        nextGoal();
+        Enemymove();
+        animator = GetComponent<Animator>();
+        Enemymove();
     }
 
     // Update is called once per frame
     void Update()
     {
         //navMeshAgent.destination = player.transform.position;
-        if(!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (!agent.pathPending && agent.remainingDistance < 0.5f)
         {
-            nextGoal();
+            Enemymove();
         }
     }
 
-    private void nextGoal()
+    public void Enemymove()
     {
-        if(goals.Length == 0){
-            return;
+        if (sensor == false)
+        {
+            if (goals.Length == 0)
+            {
+                return;
+            }
+            destNum += 1;
+            if (destNum == 3)
+            {
+                destNum = 0;
+            }
+            agent.destination = goals[destNum].position;
         }
-        destNum += 1;
-        if(destNum == 9){
-            destNum = 0;
+        else
+        {
+            agent.destination = player.transform.position;
         }
-        agent.destination = goals[destNum].position;
-        
     }
-    
+
 }
