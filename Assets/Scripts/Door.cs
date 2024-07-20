@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class Door : MonoBehaviour
         {
             Debug.Log("Player has escaped!");
             // エスケープ処理（例えばシーンの遷移）
-            // SceneManager.LoadScene("NextScene");
+            SceneManager.LoadScene("ClearScene");
         }
     }
 }
