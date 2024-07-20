@@ -3121,7 +3121,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.500201, y: 1.25, z: 1.2500002}
   m_Center: {x: 2.2501006, y: 0.625, z: -0.3750001}
->>>>>>> 724f831798b8c3a71e894e21e32774fe3db681c3
 --- !u!4 &406895896
 Transform:
   m_ObjectHideFlags: 0
@@ -3303,7 +3302,7 @@ MeshFilter:
   m_Component:
   - component: {fileID: 406895896}
   - component: {fileID: 410320184}
-  - component: {fileID: 409321464}
+  - component: {fileID: 409321465}
   - component: {fileID: 407283611}
   m_Layer: 0
   m_Name: Corridor Deadend (17)
@@ -3312,7 +3311,7 @@ MeshFilter:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!23 &409321464
+--- !u!23 &409321465
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
