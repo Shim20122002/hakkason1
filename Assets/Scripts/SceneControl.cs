@@ -21,4 +21,9 @@ public class SceneControl : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
     }
+
+    public void SwitchTV()
+    {
+        SceneManager.LoadScene("TitleAV", LoadSceneMode.Single);
+    }
 }
